@@ -92,8 +92,7 @@ address {
     background: #4d5ae5;
     letter-spacing: 0.04em;
     font-weight: 500;
-    color: #fff;
-    vertical-align: middle;
+    color: #fff;    
     cursor: pointer;
     line-height: 1.5;
 }

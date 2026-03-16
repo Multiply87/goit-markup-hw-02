@@ -30,7 +30,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.h3, .portfolio-title, .card-name {
+.feature-title, .portfolio-title, .card-name {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.2;

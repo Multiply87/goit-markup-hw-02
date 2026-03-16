@@ -75,7 +75,7 @@ address {
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.hero-bg {
+.hero {
     background: #2e2f42;
 }
 
@@ -130,7 +130,7 @@ address {
     color: #434455;
 }
 
-.footer-bg {
+.footer {
     background: #2e2f42;
 }
 

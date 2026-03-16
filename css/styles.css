@@ -1,9 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    font-weight: 500;
+    font-weight: 400;
+    background-color: #fff;
     color: #434455;
 }
 
@@ -20,7 +21,7 @@ ul {
     list-style-type: none;
 }
 
-h2 {
+.portfolio-title, .team-title, .features-title {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -28,7 +29,7 @@ h2 {
     color: #2e2f42;
 }
 
-h3 {
+.h3, .portfolio-title, .card-name {
     line-height: 1.2;
     font-size: 20px;
     color: #2e2f42;
@@ -56,11 +57,11 @@ h3 {
 }
 
 .nav-link {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .email {
@@ -95,7 +96,7 @@ h3 {
     cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover, .hero-button:focus {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
 }
